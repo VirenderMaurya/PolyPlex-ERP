@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Fields>
+
+
+
+  <Field>
+    <values>
+      <Name>Final Destination Code</Name>
+      <TableField>FinalDestCode</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>150</width>
+      <left>80</left>
+      <top>190</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Final Destination City</Name>
+      <TableField>FinalDestCity</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>150</width>
+      <left>430</left>
+      <top>190</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Final Destination State</Name>
+      <TableField>FinalDestState</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>150</width>
+      <left>80</left>
+      <top>240</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+  </Field>
+
+  <!--<Field>
+    <values>
+      <Name>Final Destination Country</Name>
+      <TableField>FinalDestCountry</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>150</width>
+      <left>430</left>
+      <top>240</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+  </Field>-->
+  <Field>
+    <values>
+      <Name>Country Code</Name>
+      <TableField>FinalDestCountry</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>DropDownAuto</type>
+      <width>150</width>
+      <left>430</left>
+      <top>240</top>
+    </design>
+    <options>
+      <opt1>[FA_CountryClassmst]</opt1>
+      <opt2>[Id]</opt2>
+      <opt3>[CountryCode]</opt3>
+    </options>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+  </Field>
+  <Field>
+    <values>
+      <Name>Transit Days</Name>
+      <TableField>TransitDays</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>150</width>
+      <left>80</left>
+      <top>280</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>Yes</number>
+    </validation>
+  </Field>
+
+
+
+</Fields>

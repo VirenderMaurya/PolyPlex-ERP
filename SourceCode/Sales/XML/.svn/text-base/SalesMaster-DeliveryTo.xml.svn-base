@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Fields>
+  <Field>
+    <values>
+      <Name>Delivery To Code</Name>
+      <TableField>DeliveryToCode</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>200</width>
+      <left>350</left>
+      <top>170</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+  </Field>
+  <Field>
+    <values>
+      <Name>Delivery To Name</Name>
+      <TableField>DeliveryToName</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>200</width>
+      <left>350</left>
+      <top>220</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+  </Field>
+  <Field>
+    <values>
+      <Name>Customer Name</Name>
+      <TableField>CustomerID</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>DropDownAuto</type>
+      <width>150</width>
+      <left>350</left>
+      <top>270</top>
+    </design>
+    <options>
+      <opt1>[Sal_Glb_Customer_Mst]</opt1>
+      <opt2>[CustomerID]</opt2>
+      <opt3>[Name]</opt3>
+    </options>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Active</Name>
+      <TableField>ActiveStatus</TableField>
+      <validationflag>No</validationflag>
+    </values>
+    <design>
+      <type>CheckBox</type>
+      <width>150</width>
+      <left>350</left>
+      <top>320</top>
+    </design>
+  </Field>
+
+</Fields>

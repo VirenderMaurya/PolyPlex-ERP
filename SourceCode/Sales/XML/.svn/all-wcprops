@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Root/!svn/ver/900/Polyplex/SourceCode/Polyplex/Sales/XML
+END
+CustomerType.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Root/!svn/ver/893/Polyplex/SourceCode/Polyplex/Sales/XML/CustomerType.xml
+END
+SalesMaster-Region.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Root/!svn/ver/885/Polyplex/SourceCode/Polyplex/Sales/XML/SalesMaster-Region.xml
+END
+SalesMaster-DeliveryTo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Root/!svn/ver/900/Polyplex/SourceCode/Polyplex/Sales/XML/SalesMaster-DeliveryTo.xml
+END
+Sales MASTER-Payment Terms.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Root/!svn/ver/561/Polyplex/SourceCode/Polyplex/Sales/XML/Sales%20MASTER-Payment%20Terms.xml
+END
+FilmType.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Root/!svn/ver/893/Polyplex/SourceCode/Polyplex/Sales/XML/FilmType.xml
+END
+SalesMaster-SalesType.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Root/!svn/ver/885/Polyplex/SourceCode/Polyplex/Sales/XML/SalesMaster-SalesType.xml
+END
+SalesMaster-Consignee.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Root/!svn/ver/891/Polyplex/SourceCode/Polyplex/Sales/XML/SalesMaster-Consignee.xml
+END
+Sales MASTER-Final Destination.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Root/!svn/ver/884/Polyplex/SourceCode/Polyplex/Sales/XML/Sales%20MASTER-Final%20Destination.xml
+END

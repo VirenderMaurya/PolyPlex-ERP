@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Fields>
+  <Field>
+    <values>
+      <Name>Assets Class</Name>
+      <TableField>AssetClass</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>DropDown</type>
+      <width>150</width>
+      <left>90</left>
+      <top>190</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+    <options>
+      <opt1>India</opt1>
+      <opt2>USA</opt2>
+    </options>
+
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Assets No</Name>
+      <TableField>AssetNo</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>150</width>
+      <left>470</left>
+      <top>190</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Asset Name</Name>
+      <TableField>AssetName</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>150</width>
+      <left>90</left>
+      <top>220</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Depreciation Key</Name>
+      <TableField>DepreciationKey</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>DropDownAuto</type>
+      <width>150</width>
+      <left>470</left>
+      <top>220</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+    <options>
+      <opt1>[FA_Glb_Depreciationkey_Mst]</opt1>
+      <opt2>[DepreciationKey]</opt2>
+    </options>
+  </Field>
+
+
+  <Field>
+    <values>
+      <Name>Serial No</Name>
+      <TableField>SerialNo</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>150</width>
+      <left>90</left>
+      <top>250</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Purchasing Date</Name>
+      <TableField>PurchasingDate</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>DateField</type>
+      <width>150</width>
+      <left>470</left>
+      <top>250</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Capitalized Date</Name>
+      <TableField>CapitalizedDate</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>DateField</type>
+      <width>150</width>
+      <left>90</left>
+      <top>280</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Quantity</Name>
+      <TableField>Quantity</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>150</width>
+      <left>470</left>
+      <top>280</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Unit of Measurement</Name>
+      <TableField>UOM</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>DropDown</type>
+      <width>150</width>
+      <left>90</left>
+      <top>310</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+    <options>
+      <opt1>Kg</opt1>
+      <opt2>MM</opt2>
+    </options>
+  </Field>
+
+  <Field>
+    <values>
+      <Name>De-Capitalized Date</Name>
+      <TableField>DeCapitalizedDate</TableField>
+      <validationflag>No</validationflag>
+    </values>
+    <design>
+      <type>DateField</type>
+      <width>150</width>
+      <left>470</left>
+      <top>310</top>
+    </design>
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Cost Center</Name>
+      <TableField>CostCenter</TableField>
+      <validationflag>No</validationflag>
+    </values>
+    <design>
+      <type>DropDownAuto</type>
+      <width>150</width>
+      <left>90</left>
+      <top>340</top>
+    </design>
+    <options>
+      <opt1>[FA_Glb_CostCenterMaster_Mst]</opt1>
+      <opt2>[CostCenterCode]</opt2>
+    </options>
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Acquisition Month</Name>
+      <TableField>AcquisitionMonth</TableField>
+      <validationflag>No</validationflag>
+    </values>
+    <design>
+      <type>DropDown</type>
+      <width>150</width>
+      <left>470</left>
+      <top>340</top>
+    </design>
+    <options>
+      <opt1>January</opt1>
+      <opt2>February</opt2>
+    </options>
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Acquisition Year</Name>
+      <TableField>AcquisitionYear</TableField>
+      <validationflag>No</validationflag>
+    </values>
+    <design>
+      <type>DropDown</type>
+      <width>150</width>
+      <left>90</left>
+      <top>370</top>
+    </design>
+    <options>
+      <opt1>2010</opt1>
+      <opt2>2011</opt2>
+    </options>
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Location</Name>
+      <TableField>Location</TableField>
+      <validationflag>No</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>150</width>
+      <left>470</left>
+      <top>370</top>
+    </design>
+
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Purchase Order No</Name>
+      <TableField>AssetPONo</TableField>
+      <validationflag>No</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>150</width>
+      <left>90</left>
+      <top>400</top>
+    </design>
+
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Verified On</Name>
+      <TableField>AssetVerificationDate</TableField>
+      <validationflag>No</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>150</width>
+      <left>470</left>
+      <top>400</top>
+    </design>
+
+  </Field>
+
+  <Field>
+    <values>
+      <Name>
+        Assets Not Visible
+      </Name>
+      <TableField>AssetsNotVisible</TableField>
+      <validationflag>No</validationflag>
+    </values>
+    <design>
+      <type>CheckBox</type>
+      <width>150</width>
+      <left>90</left>
+      <top>430</top>
+    </design>
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Warranty/AMC Start Date</Name>
+      <TableField>WarrantyAMCStartDate</TableField>
+      <validationflag>No</validationflag>
+    </values>
+    <design>
+      <type>DateField</type>
+      <width>150</width>
+      <left>470</left>
+      <top>430</top>
+    </design>
+
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Warranty/AMC End Date</Name>
+      <TableField>WarrantyAMCEndDate</TableField>
+      <validationflag>No</validationflag>
+    </values>
+    <design>
+      <type>DateField</type>
+      <width>150</width>
+      <left>90</left>
+      <top>460</top>
+    </design>
+
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Written Off Date</Name>
+      <TableField>WrittenOffDate</TableField>
+      <validationflag>No</validationflag>
+    </values>
+    <design>
+      <type>DateField</type>
+      <width>150</width>
+      <left>470</left>
+      <top>460</top>
+    </design>
+
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Asset Value</Name>
+      <TableField>AssetValue</TableField>
+      <validationflag>No</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>150</width>
+      <left>90</left>
+      <top>490</top>
+    </design>
+
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Assets Found</Name>
+      <TableField>AssetFound</TableField>
+      <validationflag>No</validationflag>
+    </values>
+    <design>
+      <type>CheckBox</type>
+      <width>150</width>
+      <left>470</left>
+      <top>490</top>
+    </design>
+
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Issue to Employee</Name>
+      <TableField>IssuedtoEmployee</TableField>
+      <validationflag>No</validationflag>
+    </values>
+    <design>
+      <type>DropDown</type>
+      <width>150</width>
+      <left>90</left>
+      <top>520</top>
+    </design>
+    <options>
+      <opt1>Employee 1</opt1>
+      <opt2>Employee 2</opt2>
+    </options>
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Active</Name>
+      <TableField>Active</TableField>
+      <validationflag>No</validationflag>
+    </values>
+    <design>
+      <type>CheckBox</type>
+      <width>150</width>
+      <left>470</left>
+      <top>520</top>
+    </design>
+  </Field>
+</Fields>

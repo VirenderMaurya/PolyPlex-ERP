@@ -1,0 +1,125 @@
+<Fields>
+  <Field>
+    <values>
+      <Name>Product Type Code</Name>
+      <TableField>ProductTypeCode</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>200</width>
+      <left>350</left>
+      <top>200</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Product Type Description 1</Name>
+      <TableField>ProductTypeDesc1</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>200</width>
+      <left>350</left>
+      <top>230</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+  </Field>
+  <Field>
+    <values>
+      <Name>Product Type Description 2</Name>
+      <TableField>ProductTypeDesc2</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>200</width>
+      <left>350</left>
+      <top>260</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+  </Field>
+  <Field>
+    <values>
+      <Name>Product Type Description 3</Name>
+      <TableField>ProductTypeDesc3</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>200</width>
+      <left>350</left>
+      <top>290</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+  </Field>
+  <Field>
+    <values>
+      <Name>Film Type</Name>
+      <TableField>FilmType</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>200</width>
+      <left>350</left>
+      <top>320</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+  </Field>
+  <Field>
+    <values>
+      <Name>Jumbo or Roll</Name>
+      <TableField>JumboOrRollOrBoth</TableField>     
+    </values>
+    <design>
+      <type>DropDown</type>
+      <width>200</width>
+      <left>350</left>
+      <top>350</top>
+    </design>
+	<options>
+		  <opt1>Jumbo</opt1>
+		  <opt2>Roll</opt2>
+		   <opt3>Both</opt3>
+	  </options>
+  </Field>
+  
+  <Field>
+    <values>
+      <Name>Active</Name>
+      <TableField>Status</TableField>
+      <validationflag>No</validationflag>
+    </values>
+    <design>
+      <type>CheckBox</type>
+      <width>150</width>
+      <left>350</left>
+      <top>380</top>
+    </design>
+  </Field>
+
+</Fields>

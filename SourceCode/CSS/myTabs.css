@@ -1,0 +1,87 @@
+﻿.miTabs .ajax__tab_header
+{
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+.miTabs .ajax__tab_outer
+{
+    height: 2em;
+    padding-right: 4px;
+    margin-right: 3px;
+    background: url(../images/tabs/tab-sprite.jpg) 0 0 repeat-x;
+    border: 1px solid #ddd;
+}
+.miTabs .ajax__tab_inner
+{
+    padding-left: 3px;
+    background: url(../images/tabs/tab-sprite.jpg) 0 0 repeat-x;
+}
+.miTabs .ajax__tab_tab
+{
+    height: 2em;
+    line-height: 1.8em;
+    padding: 0 4px;
+    margin: 0 !important;
+    background: url(../images/tabs/tab-sprite.jpg) 0 0 repeat-x;
+}
+.miTabs .ajax__tab_hover .ajax__tab_outer
+{
+    border-color: #028433;
+    background-position: 0 -50px;
+    color: #fff;
+}
+.miTabs .ajax__tab_hover .ajax__tab_inner
+{
+    border-color: #028433;
+    background-position: 0 -50px;
+    color: #fff;
+}
+.miTabs .ajax__tab_hover .ajax__tab_tab
+{
+    border-color: #028433;
+    background-position: 0 -50px;
+    color: #fff;
+}
+.miTabs .ajax__tab_active .ajax__tab_outer
+{
+    border-color: #028433;
+    background-position: 0 -96px;
+    color: #fff;
+}
+.miTabs .ajax__tab_active .ajax__tab_inner
+{
+    border-color: #028433;
+    background-position: 0 -96px;
+    color: #fff;
+}
+.miTabs .ajax__tab_active .ajax__tab_tab
+{
+    border-color: #028433;
+    background-position: 0 -96px;
+    color: #fff;
+}
+.miTabs .ajax__tab_body
+{
+    font-family: verdana,tahoma,helvetica;
+    border: 1px solid #ddd;
+    border-top: 0;
+    padding: 8px;
+    background-color: #fff;
+}
+.miTabs .ajax__tab_body ul
+{
+    list-style-type: disc;
+    line-height: 1.5em;
+    padding-left: 1em;
+}
+.miTabs .ajax__tab_body ul ul
+{
+    list-style-type: square;
+}
+.miTabs .ajax__tab_body p
+{
+    text-indent: 1em;
+    line-height: 1.3em;
+    margin-bottom: 1em;
+}

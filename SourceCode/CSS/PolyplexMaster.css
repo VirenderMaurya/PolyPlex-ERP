@@ -1,0 +1,246 @@
+﻿
+body
+{
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    background-color: #BDDEFF;
+    background-image: url('../images/page_bg.png');
+    background-repeat: repeat-x;
+}
+
+.page
+{
+    width: 960px;
+    background-color: #fff;
+    margin: 20px auto 0px auto;
+    border: 1px solid #496077;
+}
+.header
+{
+    padding: 15px 0px 0px 10px;
+    text-align: left;
+}
+.header div
+{
+    float: right;
+    padding: 5px 0px;
+}
+.header div a
+{
+    color: #FFD800;
+}
+.header img, .navPanel img, .navSelect img
+{
+    vertical-align: middle;
+    margin: 0px 5px 0px 0px;
+    border: none;
+}
+.subHeader
+{
+    background-image: url('../images/subheader_bg.png');
+    background-repeat: repeat-x;
+    height: 27px;
+    text-align: left;
+}
+.subHeader div
+{
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #10428C;
+}
+
+.title
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+/* TOOLBAR */
+.toolbar
+{
+    height: 25px;
+    margin: 0px 5px;
+    background-image: url('../images/toolbar_bg.png');
+    background-repeat: repeat-x;
+    float: left;
+}
+.toolbarLeft
+{
+    background-image: url('../images/toolbar_left.png');
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 7px;
+    float: left;
+}
+.toolbarRight
+{
+    background-image: url('../images/toolbar_right.png');
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 12px;
+    float: left;
+}
+.toolbarContent
+{
+    padding: 5px;
+    float: left;
+    height: 25px;
+}
+.toolbarContent img
+{
+    vertical-align: top;
+    border: 0px;
+    margin-right: 5px;
+}
+.toolbarContent a, .toolbarContent a:visited
+{
+    padding: 5px;
+    color: #000000;
+    text-decoration: none;
+}
+.toolbarContent a:hover
+{
+    text-decoration: underline;
+}
+
+/* CONTENT */
+.content
+{
+    width: 50%;
+    margin: 5px 5px 0px 0px;
+    background-color: #ffffff;
+    border: solid 1px #6394CE;
+    vertical-align: top;
+    height: 650px;
+    overflow: auto;
+    float: left;
+}
+.menu
+{
+    margin: 5px 5px 0px 10px;
+    background-color: #ffffff;
+    border: solid 1px #6394CE;
+    vertical-align: top;
+    height: 650px;
+    overflow: auto;
+    float: left;
+}
+.content1
+{
+    margin: 5px 5px 0px 5px;
+    background-color: #ffffff;
+    border: solid 1px #6394CE;
+    vertical-align: top;
+    height: 650px;
+    overflow: auto;
+    float: left;
+}
+
+.content2
+{
+    width: 100%;
+    margin: 5px 5px 0px 0px;
+    background-color: #ffffff;
+    border: solid 0px #6394CE;
+    vertical-align: top;
+    float: left;
+    height: 95%;
+    overflow: auto;
+}
+
+.contentPanel
+{
+    padding: 0px;
+    overflow: auto;
+}
+
+.divtasks
+{
+    margin-top:20px;
+}
+.contentPanel1
+{
+    padding: 10px;
+    overflow: auto;
+}
+/* Accordion */
+.accordionHeader
+{
+    border: 1px solid #2F4F4F;
+    background-image: url('../images/nav_link.png');
+    background-repeat: repeat-x;
+    font-family: Arial, Sans-Serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 5px;
+    cursor: pointer;
+    text-align: left;
+}
+
+.accordionHeaderSelected
+{
+    border: 1px solid #2F4F4F;
+    color: white;
+    background-image: url('../images/nav_link_hover.png');
+    background-repeat: repeat-x;
+    font-family: Arial, Sans-Serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#master_content .accordionHeaderSelected a
+{
+    color: #FFFFFF;
+    background: none;
+    text-decoration: none;
+}
+
+#master_content .accordionHeaderSelected a:hover
+{
+    background: none;
+    text-decoration: underline;
+}
+.tabControl
+{
+    font-size: 8pt;
+    margin: 0px;
+    color: #5E3B3B;
+    font-family: Tahoma, Verdana, Arial;
+    background-color: #F6F8FA;
+}
+.gridpager, .gridpager td
+{
+    text-align: left;
+    text-decoration: none;
+}
+
+TD.DgSelCol
+{
+    width: 35;
+}
+.td_gray
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+    line-height: 25px;
+    padding-top: 1px;
+    background: #F0F0F0;
+}
+.td_blue
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+    line-height: 25px;
+    padding-top: 1px;
+    background: #EFF2F6; /*  background:#99CCFF;*/ /* background:url(../images/button_bg.jpg) repeat-x;*/
+}
+

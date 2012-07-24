@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Fields>
+  <Field>
+    <values>
+      <Name>Sales Type Code</Name>
+      <TableField>SalesType</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>200</width>
+      <left>350</left>
+      <top>200</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+  </Field>
+  <Field>
+    <values>
+      <Name>Sales Type</Name>
+      <TableField>Name</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>200</width>
+      <left>350</left>
+      <top>250</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+  </Field>
+  <Field>
+    <values>
+      <Name>Active</Name>
+      <TableField>ActiveStatus</TableField>
+      <validationflag>No</validationflag>
+    </values>
+    <design>
+      <type>CheckBox</type>
+      <width>150</width>
+      <left>350</left>
+      <top>300</top>
+    </design>
+  </Field>
+
+</Fields>

@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Fields>
+  <Field>
+    <values>
+      <Name>Depreciation Key</Name>
+      <TableField>DepreciationKey</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>150</width>
+      <left>300</left>
+      <top>200</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Depreciation Name</Name>
+      <TableField>DepName</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>150</width>
+      <left>300</left>
+      <top>230</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Total Depreciation Years</Name>
+      <TableField>TotalDepYears</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>150</width>
+      <left>300</left>
+      <top>260</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+  </Field>
+
+  <Field>
+    <values>
+      <Name>First Year Rate</Name>
+      <TableField>FirstYearRate</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>150</width>
+      <left>300</left>
+      <top>290</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+  
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Second Year Rate</Name>
+      <TableField>SecondYearRate</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>150</width>
+      <left>300</left>
+      <top>320</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+    </Field>
+  
+  <Field>
+    <values>
+      <Name>Third Year Rate</Name>
+      <TableField>ThirdYearRate</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>150</width>
+      <left>300</left>
+      <top>350</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+    </Field>
+  
+  <Field>
+    <values>
+      <Name>Fourth Year Rate</Name>
+      <TableField>FourthYearRate</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>150</width>
+      <left>300</left>
+      <top>380</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+    </Field>
+  
+  <Field>
+    <values>
+      <Name>Fifth Year Rate</Name>
+      <TableField>FifthYearRate</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>150</width>
+      <left>300</left>
+      <top>410</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+  
+  </Field>
+  
+  <Field>
+    <values>
+      <Name>Rest Year Rate</Name>
+      <TableField>RestYearRate</TableField>
+      <validationflag>No</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>150</width>
+      <left>300</left>
+      <top>440</top>
+    </design>
+  
+  </Field>
+  
+  <Field>
+    <values>
+      <Name>
+        Active
+      </Name>
+      <TableField>Active</TableField>
+      <validationflag>No</validationflag>
+    </values>
+    <design>
+      <type>CheckBox</type>
+      <width>150</width>
+      <left>300</left>
+      <top>470</top>
+    </design>
+  </Field>
+</Fields>

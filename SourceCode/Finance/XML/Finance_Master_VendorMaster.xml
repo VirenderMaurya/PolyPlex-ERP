@@ -1,0 +1,617 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Fields>
+  <Field>
+    <values>
+      <Name>Vendor Code</Name>
+      <TableField>FIVendorCode</TableField>
+		<validationflag>Yes</validationflag>	
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>150</width>
+      <left>90</left>
+      <top>190</top>
+    </design>
+	  <validation>
+		  <required>Yes</required>
+		  <email>No</email>
+		  <number>No</number>
+	  </validation>  
+  </Field>
+  <Field>
+    <values>
+      <Name>MM/FI Vendor</Name>
+      <TableField>MMFIVendor</TableField>
+	<validationflag>No</validationflag>
+	</values>
+    <design>
+      <type>DropDown</type>
+      <width>150</width>
+      <left>420</left>
+      <top>190</top>
+    </design>
+	  <options>
+		  <opt1>MIVendor</opt1>
+		  <opt2>FIVendor</opt2>
+     </options>
+	  <validation>
+		  <required>No</required>
+		  <email>No</email>
+		  <number>No</number>
+	  </validation>
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Old Vendor Code</Name>
+      <TableField>OldFIVendorCode</TableField>
+		<validationflag>Yes</validationflag>
+	</values>
+    <design>
+      <type>TextBox</type>
+      <width>150</width>
+      <left>90</left>
+      <top>220</top>
+    </design>
+	  <validation>
+		  <required>No</required>
+		  <email>No</email>
+		  <number>Yes</number>
+	  </validation>
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Vendor Group</Name>
+      <TableField>VendorGroup</TableField>
+		<validationflag>Yes</validationflag>
+	</values>
+    <design>
+      <type>DropDown</type>
+      <width>150</width>
+      <left>420</left>
+      <top>220</top>
+    </design>
+	  <validation>
+		  <required>Yes</required>
+		  <email>No</email>
+		  <number>No</number>
+	  </validation>
+	  <options>
+      <opt1>Normal</opt1>
+      <opt2>Low</opt2>
+      <opt2>High</opt2>
+    </options>
+  </Field>
+
+
+  <Field>
+    <values>
+      <Name>Vendor Name</Name>
+      <TableField>VendorName</TableField>
+		<validationflag>Yes</validationflag>
+	</values>
+    <design>
+      <type>MultiTextField</type>
+      <width>500</width>
+      <left>90</left>
+      <top>250</top>
+    </design>
+	  <validation>
+		  <required>Yes</required>
+		  <email>No</email>
+		  <number>No</number>
+	  </validation>
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Address</Name>
+      <TableField>VendorAddress</TableField>
+		<validationflag>Yes</validationflag>
+	</values>
+    <design>
+      <type>MultiTextField</type>
+      <width>500</width>
+      <left>90</left>
+      <top>290</top>
+    </design>
+	  <validation>
+		  <required>Yes</required>
+		  <email>No</email>
+		  <number>No</number>
+	  </validation>
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Postal Code</Name>
+      <TableField>PostalCode</TableField>
+		<validationflag>No</validationflag>
+	</values>
+    <design>
+      <type>TextBox</type>
+      <width>100</width>
+      <left>90</left>
+      <top>330</top>
+    </design>
+	  <validation>
+		  <required>No</required>
+		  <email>No</email>
+		  <number>No</number>
+	  </validation>
+  </Field>
+	<Field>
+		<values>
+			<Name>Type Company</Name>
+			<TableField>TypeCompany</TableField>
+			<validationflag>No</validationflag>
+		</values>
+		<design>
+			<type>CheckBox</type>
+			<width>150</width>
+			<left>420</left>
+			<top>330</top>
+		</design>
+		<validation>
+			<required>No</required>
+			<email>No</email>
+			<number>No</number>
+		</validation>
+	</Field>
+	<Field>
+    <values>
+      <Name>City</Name>
+      <TableField>City</TableField>
+		<validationflag>Yes</validationflag>
+	</values>
+    <design>
+      <type>TextBox</type>
+      <width>100</width>
+      <left>90</left>
+      <top>360</top>
+    </design>
+		<validation>
+			<required>Yes</required>
+			<email>No</email>
+			<number>No</number>
+		</validation>
+	</Field>
+
+  <Field>
+    <values>
+      <Name>Country</Name>
+      <TableField>Country</TableField>
+		<validationflag>Yes</validationflag>
+	</values>
+    <design>
+      <type>DropDown</type>
+      <width>100</width>
+      <left>420</left>
+      <top>360</top>
+    </design>
+	  <validation>
+		  <required>Yes</required>
+		  <email>No</email>
+		  <number>No</number>
+	  </validation>
+	  <options>
+      <opt1>USA</opt1>
+      <opt2>Mexico</opt2>
+    </options>
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Region</Name>
+      <TableField>Region</TableField>
+		<validationflag>Yes</validationflag>
+	</values>
+    <design>
+      <type>DropDown</type>
+      <width>150</width>
+      <left>90</left>
+      <top>390</top>
+    </design>
+	  <validation>
+		  <required>Yes</required>
+		  <email>No</email>
+		  <number>No</number>
+	  </validation>
+	  <options>
+      <opt1>Europe</opt1>
+      <opt2>Asia</opt2>
+	  <opt2>North America</opt2>
+	  </options>
+  </Field>
+	
+
+
+  <Field>
+    <values>
+      <Name>Telephone Extn</Name>
+      <TableField>TelephoneExtn</TableField>
+		<validationflag>Yes</validationflag>
+	</values>
+    <design>
+      <type>TextBox</type>
+      <width>100</width>
+      <left>420</left>
+      <top>390</top>
+    </design>
+	  <validation>
+		  <required>No</required>
+		  <email>No</email>
+		  <number>Yes</number>
+	  </validation>
+  </Field>
+  
+  <Field>
+    <values>
+      <Name>FAX No.</Name>
+      <TableField>FAXNo</TableField>
+		<validationflag>Yes</validationflag>
+	</values>
+    <design>
+      <type>TextBox</type>
+      <width>100</width>
+      <left>700</left>
+      <top>390</top>
+    </design>
+	  <validation>
+		  <required>No</required>
+		  <email>No</email>
+		  <number>Yes</number>
+	  </validation>
+  </Field>
+
+  <Field>
+    <values>
+      <Name>FAX Extn</Name>
+      <TableField>FAXExtn</TableField>
+		<validationflag>Yes</validationflag>
+	</values>
+    <design>
+      <type>TextBox</type>
+      <width>100</width>
+      <left>90</left>
+      <top>420</top>
+    </design>
+	  <validation>
+		  <required>No</required>
+		  <email>No</email>
+		  <number>Yes</number>
+	  </validation>
+  </Field>
+
+	<Field>
+		<values>
+			<Name>Telephone No.</Name>
+			<TableField>TelephoneNo</TableField>
+			<validationflag>Yes</validationflag>
+		</values>
+		<design>
+			<type>TextBox</type>
+			<width>100</width>
+			<left>420</left>
+			<top>420</top>
+		</design>
+		<validation>
+			<required>No</required>
+			<email>No</email>
+			<number>Yes</number>
+		</validation>
+	</Field>
+	<Field>
+		<values>
+			<Name>Contact Person1</Name>
+			<TableField>ContactPersonOne</TableField>
+			<validationflag>No</validationflag>
+		</values>
+		<design>
+			<type>TextBox</type>
+			<width>150</width>
+			<left>90</left>
+			<top>450</top>
+		</design>
+		<validation>
+			<required>No</required>
+			<email>No</email>
+			<number>No</number>
+		</validation>
+	</Field>
+  <Field>
+    <values>
+      <Name>Email Address1</Name>
+      <TableField>CompanyEmailAddress1</TableField>
+		<validationflag>Yes</validationflag>
+	</values>
+    <design>
+      <type>TextBox</type>
+      <width>200</width>
+      <left>700</left>
+      <top>450</top>
+    </design>
+	  <validation>
+		  <required>No</required>
+		  <email>Yes</email>
+		  <number>No</number>
+	  </validation>
+  </Field>
+	<Field>
+		<values>
+			<Name>Contact Person1 Con.No.</Name>
+			<TableField>ContactPersonOneContactNo</TableField>
+			<validationflag>Yes</validationflag>
+		</values>
+		<design>
+			<type>TextBox</type>
+			<width>100</width>
+			<left>420</left>
+			<top>450</top>
+		</design>
+		<validation>
+			<required>No</required>
+			<email>No</email>
+			<number>Yes</number>
+		</validation>
+	</Field>
+
+	<Field>
+    <values>
+      <Name>Email Address2</Name>
+      <TableField>CompanyEmailAddress2</TableField>
+		<validationflag>Yes</validationflag>
+	</values>
+    <design>
+      <type>TextBox</type>
+      <width>200</width>
+      <left>700</left>
+      <top>480</top>
+    </design>
+		<validation>
+			<required>No</required>
+			<email>Yes</email>
+			<number>No</number>
+		</validation>
+	</Field>
+  
+  
+  
+ <Field>
+    <values>
+      <Name>Contact Person2</Name>
+      <TableField>ContactPersonTwo</TableField>
+		<validationflag>No</validationflag>
+	</values>
+    <design>
+      <type>TextBox</type>
+      <width>100</width>
+      <left>90</left>
+      <top>480</top>
+    </design>
+	 <validation>
+		 <required>No</required>
+		 <email>No</email>
+		 <number>No</number>
+	 </validation>
+ </Field>
+  
+  <Field>
+    <values>
+      <Name>Contact Person2 Con.No.</Name>
+      <TableField>ContactPersonTwoContactNo</TableField>
+		<validationflag>Yes</validationflag>
+	</values>
+    <design>
+      <type>TextBox</type>
+      <width>100</width>
+      <left>420</left>
+      <top>480</top>
+    </design>
+	  <validation>
+		  <required>No</required>
+		  <email>No</email>
+		  <number>Yes</number>
+	  </validation>
+  </Field> 
+    
+  <Field>
+    <values>
+      <Name>Payment Term</Name>
+      <TableField>PaymentTerm</TableField>
+		<validationflag>Yes</validationflag>
+	</values>
+    <design>
+      <type>DropDown</type>
+      <width>150</width>
+      <left>90</left>
+      <top>510</top>
+    </design>
+	  <validation>
+		  <required>Yes</required>
+		  <email>No</email>
+		  <number>No</number>
+	  </validation>
+	  <options>
+		  <opt1>PaymentTerm1</opt1>
+		  <opt2>PaymentTerm2</opt2>
+	  </options>  
+  </Field>
+
+  <Field>
+    <values>
+      <Name>IncoTerm</Name>
+      <TableField>IncoTerm</TableField>
+		<validationflag>Yes</validationflag>
+	</values>
+    <design>
+      <type>DropDown</type>
+      <width>100</width>
+      <left>420</left>
+      <top>510</top>
+    </design>
+	  <validation>
+		  <required>Yes</required>
+		  <email>No</email>
+		  <number>No</number>
+	  </validation>
+	  <options>
+      <opt1>Incoterm1</opt1>
+      <opt2>Incoterm2</opt2>
+    </options>
+  </Field>
+
+  <Field>
+    <values>
+      <Name>
+        Order Currency
+      </Name>
+      <TableField>ORDCurrency</TableField>
+		<validationflag>No</validationflag>
+	</values>
+    <design>
+      <type>DropDown</type>
+      <width>150</width>
+      <left>700</left>
+      <top>510</top>
+    </design>
+	  <validation>
+		  <required>No</required>
+		  <email>No</email>
+		  <number>No</number>
+	  </validation>
+	  <options>
+		  <opt1>ORD Currency1</opt1>
+		  <opt2>ORD Currency1</opt2>
+	  </options>
+  </Field>
+
+  <Field>
+    <values>
+      <Name>
+        Income Tax ID
+      </Name>
+      <TableField>ITexID</TableField>
+		<validationflag>No</validationflag>
+	</values>
+    <design>
+      <type>TextBox</type>
+      <width>120</width>
+      <left>90</left>
+      <top>540</top>
+    </design>
+	  <validation>
+		  <required>No</required>
+		  <email>No</email>
+		  <number>No</number>
+	  </validation>
+  </Field>
+
+  <Field>
+    <values>
+      <Name>
+        Nearest Sea Port
+      </Name>
+      <TableField>NearestSeaPort</TableField>
+		<validationflag>No</validationflag>
+	</values>
+    <design>
+      <type>TextBox</type>
+      <width>120</width>
+      <left>420</left>
+      <top>540</top>
+    </design>
+	  <validation>
+		  <required>No</required>
+		  <email>No</email>
+		  <number>No</number>
+	  </validation>
+  </Field>
+
+  
+  <Field>
+    <values>
+      <Name>
+        Nearest Air Port
+      </Name>
+      <TableField>NearestAirPort</TableField>
+		<validationflag>No</validationflag>
+	</values>
+    <design>
+      <type>TextBox</type>
+      <width>120</width>
+      <left>90</left>
+      <top>570</top>
+    </design>
+	  <validation>
+		  <required>No</required>
+		  <email>No</email>
+		  <number>No</number>
+	  </validation>
+  </Field>
+  
+  
+  
+  <Field>
+    <values>
+      <Name>VAT In Percentage</Name>
+      <TableField>VATInPercentage</TableField>
+		<validationflag>Yes</validationflag>
+	</values>
+    <design>
+      <type>TextBox</type>
+      <width>150</width>
+      <left>420</left>
+      <top>570</top>
+    </design>
+	  <validation>
+		  <required>No</required>
+		  <email>No</email>
+		  <number>Yes</number>
+	  </validation>
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Debit GL Code</Name>
+      <TableField>DebitGLCode</TableField>
+		<validationflag>Yes</validationflag>
+	</values>
+    <design>
+      <type>DropDown</type>
+      <width>150</width>
+      <left>90</left>
+      <top>600</top>
+	</design>
+	  <validation>
+		  <required>Yes</required>
+		  <email>No</email>
+		  <number>No</number>
+	  </validation>
+	  <options>
+		  <opt1>GL Code1</opt1>
+		  <opt2>GL Code2</opt2>
+	  </options>
+	 
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Active</Name>
+      <TableField>Active</TableField>
+		<validationflag>No</validationflag>
+	</values>
+    <design>
+      <type>CheckBox</type>
+      <width>460</width>
+      <left>420</left>
+      <top>600</top>
+    </design>
+	  <validation>
+		  <required>No</required>
+		  <email>No</email>
+		  <number>No</number>
+	  </validation>
+  </Field>
+</Fields>

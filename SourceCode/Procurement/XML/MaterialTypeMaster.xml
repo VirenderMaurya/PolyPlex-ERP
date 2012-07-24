@@ -1,0 +1,73 @@
+  <Fields>
+  <Field>
+    <values>
+      <Name>Material Type Code</Name>
+      <TableField>Code</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>200</width>
+      <left>350</left>
+      <top>200</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Material Type Name</Name>
+      <TableField>Description</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>200</width>
+      <left>350</left>
+      <top>230</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+  </Field>
+  
+  <Field>
+    <values>
+      <Name>Start Number</Name>
+      <TableField>StartNumber</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>200</width>
+      <left>350</left>
+      <top>260</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>Yes</number>
+    </validation>
+  </Field>
+  
+  <Field>
+    <values>
+      <Name>Active</Name>
+      <TableField>Status</TableField>
+      <validationflag>No</validationflag>
+    </values>
+    <design>
+      <type>CheckBox</type>
+      <width>150</width>
+      <left>350</left>
+      <top>290</top>
+    </design>
+  </Field>
+
+</Fields>

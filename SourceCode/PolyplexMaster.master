@@ -1,0 +1,208 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="PolyplexMaster.master.cs"
+    Inherits="PolyplexMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        /*Modal Popup*/
+        .modalBackground
+        {
+            background-color: black;
+            filter: alpha(opacity=50);
+            opacity: 0.5;
+        }
+        
+        .modalPopup
+        {
+            background-color: #BDDEFF;
+            border: 1px solid #3073b6;
+        }
+        
+        .modalPopup p
+        {
+            padding: 5px;
+        }
+        .pnl_box
+        {
+            background-color: White;
+            border-bottom: 1px solid black;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            padding: 10px;
+        }
+        .in_menu_head
+        {
+            background: url("images/subheader_bg.png") repeat-x scroll 0 0 #B9DCFF;
+            border: 1px solid #5A7F97;
+            height: 22px;
+            padding-top: 3px;
+            padding-left: 10px;
+            font-size: 14px;
+            font-weight: bold;
+            text-align: left;
+            box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.25) inset;
+        }
+        body
+        {
+            width: 100%;
+            height: auto;
+            margin: 0px auto;
+            font-family: Tahoma, Arial, Helvetica, sans-serif;
+            font-size: 11px;
+            background-color: #BDDEFF;
+            background-image: url('images/page_bg.png');
+            background-repeat: repeat-x;
+        }
+        .button
+        {
+            background-color: #3073B6;
+            background-image: none;
+            border: 1px solid orange;
+            box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.25) inset;
+            color: Black;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+            font-size: 13px;
+            height: 28px;
+            width: 80px;
+            font-weight: bold;
+            padding-bottom: 4px;
+        }
+        .button:hover
+        {
+            background-color: White;
+        }
+        
+        .txtbx
+        {
+            border: 1px solid #563026;
+            width: 160px;
+        }
+        
+        .myTabs .ajax__tab_header
+        {
+            font-family: verdana,tahoma,helvetica;
+            background: url(images/tabs/tab-line.gif) repeat-x bottom;
+        }
+        .myTabs .ajax__tab_outer
+        {
+            height: 2em;
+            padding-right: 4px;
+            background: url(images/tabs/tab-right.gif) no-repeat right top;
+        }
+        .myTabs .ajax__tab_inner
+        {
+            padding-left: 3px;
+            background: url(images/tabs/tab-left.gif) no-repeat;
+        }
+        .myTabs .ajax__tab_tab
+        {
+            height: 2em;
+            line-height: 1.8em;
+            padding: 0 4px;
+            margin: 0 !important;
+            background: url(images/tabs/tab.gif) repeat-x;
+        }
+        .myTabs .ajax__tab_hover .ajax__tab_outer
+        {
+            background: url(images/tabs/tab-active-right.gif) no-repeat right top;
+        }
+        .myTabs .ajax__tab_hover .ajax__tab_inner
+        {
+            background: url(images/tabs/tab-active-left.gif) no-repeat;
+        }
+        .myTabs .ajax__tab_hover .ajax__tab_tab
+        {
+            background: url(images/tabs/tab-hover.gif) repeat-x;
+        }
+        .myTabs .ajax__tab_active .ajax__tab_outer
+        {
+            background: url(images/tabs/tab-active-right.gif) no-repeat right top;
+        }
+        .myTabs .ajax__tab_active .ajax__tab_inner
+        {
+            background: url(images/tabs/tab-active-left.gif) no-repeat;
+        }
+        .myTabs .ajax__tab_active .ajax__tab_tab
+        {
+            background: url(images/tabs/tab-active.gif) repeat-x;
+        }
+        .myTabs .ajax__tab_body
+        {
+            font-family: verdana,tahoma,helvetica;
+            border: 1px solid #A3CEE0;
+            border-top: 0;
+            padding: 8px;
+            background-color: #fff;
+        }
+        .myTabs .ajax__tab_body ul
+        {
+            list-style-type: disc;
+            line-height: 1.5em;
+            padding-left: 1em;
+        }
+        .myTabs .ajax__tab_body ul ul
+        {
+            list-style-type: square;
+        }
+        .myTabs .ajax__tab_body p
+        {
+            text-indent: 1em;
+            line-height: 1.3em;
+            margin-bottom: 1em;
+        }
+        .customCalloutStyle div, .customCalloutStyle td
+        {
+            border: solid 1px Black;
+            background-color: #BDDEFF;
+            color: Black;
+            filter: alpha(opacity=80);
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <form id="form2" runat="server">
+    <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+        <ContentTemplate>
+            <div>
+                <div style="margin: 10px 0px 10px 20px">
+                    <img src="Images/Polyplex Logo.png" height="40px" width="160px" alt="Polyplex" /></div>
+                <div style="margin-left: 20px; margin-right: 20px">
+                    <table width="100%" cellpadding="0px" cellspacing="0px">
+                        <tr>
+                            <td>
+                                <div class="in_menu_head">
+                                    <asp:Label ID="lbl_PageHeader" runat="server" Text=""></asp:Label></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                &nbsp;
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                <div style="padding-left: 0px; padding-right: 0px">
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </ContentTemplate>
+    </asp:UpdatePanel>
+    </form>
+</body>
+</html>

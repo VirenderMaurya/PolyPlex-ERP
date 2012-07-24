@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Fields>
+  <Field>
+    <values>
+      <Name>Class Code</Name>
+      <TableField>ClassCode</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>150</width>
+      <left>300</left>
+      <top>200</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Class Name</Name>
+      <TableField>ClassName</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>150</width>
+      <left>300</left>
+      <top>230</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+  </Field>
+  <Field>
+    <values>
+      <Name>GL Code</Name>
+      <TableField>GLCode</TableField>
+      <validationflag>No</validationflag>
+    </values>
+    <design>
+      <type>DropDownAuto</type>
+      <width>150</width>
+      <left>300</left>
+      <top>260</top>
+    </design>
+
+    <options>
+      <opt1>[FA_Glb_GLMaster_Mst]</opt1>
+      <opt2>[GeneralLedgerCode]</opt2>
+    </options>
+  </Field>
+  <Field>
+    <values>
+      <Name>Depreciation GL Code</Name>
+      <TableField>DepreciationGLCode</TableField>
+      <validationflag>No</validationflag>
+    </values>
+    <design>
+      <type>DropDown</type>
+      <width>150</width>
+      <left>300</left>
+      <top>290</top>
+    </design>
+    <options>
+      <opt1>1</opt1>
+      <opt2>2</opt2>
+    </options>
+  </Field>
+  <Field>
+    <values>
+      <Name>Active</Name>
+      <TableField>Active</TableField>
+      <validationflag>No</validationflag>
+    </values>
+    <design>
+      <type>CheckBox</type>
+      <width>150</width>
+      <left>300</left>
+      <top>320</top>
+    </design>
+  </Field>
+
+</Fields>
+

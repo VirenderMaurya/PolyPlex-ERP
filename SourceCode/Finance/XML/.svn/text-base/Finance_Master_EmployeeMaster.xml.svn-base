@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Fields>
+  <Field>
+    <values>
+      <Name>Employee Code</Name>
+      <TableField>EmployeeCode</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>150</width>
+      <left>300</left>
+      <top>200</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Employee Name</Name>
+      <TableField>EmployeeName</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>150</width>
+      <left>300</left>
+      <top>230</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Employee Band</Name>
+      <TableField>EmployeeBand</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+	  <design>
+		  <type>DropDownAuto</type>
+		  <width>150</width>
+		  <left>300</left>
+		  <top>260</top>
+	  </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+	  <options>
+		  <opt1>[FA_Glb_EmployeeBand_Mst]</opt1>
+		  <opt2>[EmployeeBand]</opt2>
+	  </options>
+  </Field>
+
+  
+  <Field>
+    <values>
+      <Name>Employee Cost Center</Name>
+      <TableField>CostCenter</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+	  <design>
+		  <type>DropDownAuto</type>
+		  <width>150</width>
+		  <left>300</left>
+		  <top>290</top>
+	  </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+	  <options>
+		  <opt1>[FA_Glb_CostCenterMaster_Mst]</opt1>
+		  <opt2>[CostCenterCode]</opt2>
+	  </options>
+  </Field>
+  
+  <Field>
+    <values>
+      <Name>Travel Kit Taken On</Name>
+      <TableField>TravelKitTakenDate</TableField>
+      <validationflag>No</validationflag>
+    </values>
+    <design>
+      <type>DateField</type>
+      <width>150</width>
+      <left>300</left>
+      <top>320</top>
+    </design>
+   
+  </Field>
+  
+  <Field>
+    <values>
+      <Name>Active</Name>
+      <TableField>Active</TableField>
+      <validationflag>No</validationflag>
+    </values>
+    <design>
+      <type>CheckBox</type>
+      <width>150</width>
+      <left>300</left>
+      <top>350</top>
+    </design>
+  </Field>
+</Fields>

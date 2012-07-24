@@ -1,0 +1,100 @@
+﻿/*Modal Popup*/
+.modalBackground
+{
+    background-color: black;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+
+.modalPopup
+{
+    background-color: #BDDEFF;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #3073b6;
+    padding: 0px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.modalPopup p
+{
+    padding: 5px;
+}
+.gridpager, .gridpager td
+{
+    text-align: left;
+    text-decoration: none;
+}
+.myTabs .ajax__tab_header
+{
+    font-family: Arial;
+    background: url(~/images/tabs/tab-line.gif) repeat-x bottom;
+    
+}
+.myTabs .ajax__tab_outer
+{
+    height: 2em;
+    padding-right: 4px;
+    background: url(~/images/tabs/tab-right.gif) no-repeat right top;
+}
+.myTabs .ajax__tab_inner
+{
+    padding-left: 3px;
+    background: url(~/images/tabs/tab-left.gif) no-repeat;
+}
+.myTabs .ajax__tab_tab
+{
+    height: 2em;
+    line-height: 1.8em;
+    padding: 0 4px;
+    margin: 0 !important;
+    background: url(../images/tabs/tab.gif) repeat-x;
+}
+.myTabs .ajax__tab_hover .ajax__tab_outer
+{
+    background: url(../images/tabs/tab-active-right.gif) no-repeat right top;
+}
+.myTabs .ajax__tab_hover .ajax__tab_inner
+{
+    background: url(../images/tabs/tab-active-left.gif) no-repeat;
+}
+.myTabs .ajax__tab_hover .ajax__tab_tab
+{
+    background: url(../images/tabs/tab-hover.gif) repeat-x;
+}
+.myTabs .ajax__tab_active .ajax__tab_outer
+{
+    background: url(../images/tabs/tab-active-right.gif) no-repeat right top;
+}
+.myTabs .ajax__tab_active .ajax__tab_inner
+{
+    background: url(../images/tabs/tab-active-left.gif) no-repeat;
+}
+.myTabs .ajax__tab_active .ajax__tab_tab
+{
+    background: url(../images/tabs/tab-active.gif) repeat-x;
+}
+.myTabs .ajax__tab_body
+{
+    font-family: Arial;
+    border: 1px solid #A3CEE0;
+    border-top: 0;
+    padding: 8px;
+    background-color: #fff;
+}
+.myTabs .ajax__tab_body ul
+{
+    list-style-type: disc;
+    line-height: 1.5em;
+    padding-left: 1em;
+}
+.myTabs .ajax__tab_body ul ul
+{
+    list-style-type: square;
+}
+.myTabs .ajax__tab_body p
+{
+    text-indent: 1em;
+    line-height: 1.3em;
+    margin-bottom: 1em;
+}

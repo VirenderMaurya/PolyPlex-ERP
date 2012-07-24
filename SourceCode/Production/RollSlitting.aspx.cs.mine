@@ -1,0 +1,75 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+public partial class Production_RollSlitting : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+
+    }
+    protected void btnAddLine_Click(object sender, EventArgs e)
+    {
+
+    }
+    protected void btnSaveLine_Click(object sender, EventArgs e)
+    {
+
+    }
+    protected void btnSave_Click(object sender, EventArgs e)
+    {
+
+    }
+    protected void btnCancel_Click(object sender, EventArgs e)
+    {
+
+    }
+    protected void btnExit_Click(object sender, EventArgs e)
+    {
+
+    }
+    protected void btnSIAdd_Click(object sender, EventArgs e)
+    {
+
+    }
+    protected void btnSIOver_Click(object sender, EventArgs e)
+    {
+
+    }
+    protected void btnAdd_Click(object sender, EventArgs e)
+    {
+
+    }
+    protected void btnOver_Click(object sender, EventArgs e)
+    {
+
+    }
+    protected void gvRollDetails_RowCommand(object sender, GridViewCommandEventArgs e)
+    {
+
+    }
+    protected void gvRollDetails_RowDataBound(object sender, GridViewRowEventArgs e)
+    {
+
+    }
+    protected void gvPrimaryInput_RowCommand(object sender, GridViewCommandEventArgs e)
+    {
+
+    }
+    protected void gvPrimaryInput_RowDataBound(object sender, GridViewRowEventArgs e)
+    {
+
+    }
+    protected void gvSecondaryInput_RowCommand(object sender, GridViewCommandEventArgs e)
+    {
+
+    }
+    protected void gvSecondaryInput_RowDataBound(object sender, GridViewRowEventArgs e)
+    {
+
+    }
+    
+}

@@ -1,0 +1,60 @@
+  <Fields>
+  <Field>
+    <values>
+      <Name>Currency Code</Name>
+      <TableField>CurrencyCode</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>200</width>
+      <left>350</left>
+      <top>200</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Country</Name>
+      <TableField>Country</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>DropDownAuto</type>
+      <width>200</width>
+      <left>350</left>
+      <top>230</top>
+    </design>
+	<options>
+		  <opt1>[FA_CountryClassmst]</opt1>
+		  <opt2>[CountryCode]</opt2>
+	  </options>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+  </Field>
+  
+  
+  
+  <Field>
+    <values>
+      <Name>Active</Name>
+      <TableField>ActiveStatus</TableField>
+      <validationflag>No</validationflag>
+    </values>
+    <design>
+      <type>CheckBox</type>
+      <width>150</width>
+      <left>350</left>
+      <top>260</top>
+    </design>
+  </Field>
+
+</Fields>

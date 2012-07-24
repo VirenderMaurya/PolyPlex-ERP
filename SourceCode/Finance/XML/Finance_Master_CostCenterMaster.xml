@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Fields>
+  <Field>
+    <values>
+      <Name>Cost Center Code</Name>
+      <TableField>CostCenterCode</TableField>
+	  <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>200</width>
+      <left>350</left>
+      <top>200</top>
+    </design>
+	  <validation>
+		  <required>Yes</required>
+		  <email>No</email>
+		  <number>No</number>
+	  </validation>
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Description</Name>
+      <TableField>Description</TableField>
+		<validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>200</width>
+      <left>350</left>
+      <top>230</top>
+    </design>
+	  <validation>
+		  <required>Yes</required>
+		  <email>No</email>
+		  <number>No</number>
+	  </validation>
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Profit Center</Name>
+      <TableField>ProfitCenter</TableField>
+		<validationflag>Yes</validationflag>
+    </values>
+	  <design>
+		  <type>DropDownAuto</type>
+		  <width>200</width>
+		  <left>350</left>
+		  <top>260</top>
+	  </design>
+	  <options>
+		  <opt1>[FA_Glb_ProfitCenter_Mst]</opt1>
+		  <opt2>[ProfitCenterCode]</opt2>
+	  </options>
+	  <validation>
+		  <required>Yes</required>
+		  <email>No</email>
+		  <number>No</number>
+	  </validation>
+  </Field>
+
+    <Field>
+    <values>
+      <Name>Responsible Person</Name>
+      <TableField>ResponsiblePerson</TableField>
+		<validationflag>No</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>200</width>
+      <left>350</left>
+      <top>290</top>
+    </design>
+		<validation>
+			<required>No</required>
+			<email>No</email>
+			<number>No</number>
+		</validation>
+  </Field>
+
+  
+   <Field>
+    <values>
+      <Name>Responsible Person Email</Name>
+      <TableField>ResponsiblePersonEmail</TableField>
+		<validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>200</width>
+      <left>350</left>
+      <top>320</top>
+    </design>
+	   <validation>
+		   <required>No</required>
+		   <email>Yes</email>
+		   <number>No</number>
+	   </validation>
+  </Field>
+  
+  <Field>
+    <values>
+      <Name>Active</Name>
+      <TableField>Active</TableField>
+		<validationflag>No</validationflag>
+    </values>
+    <design>
+      <type>CheckBox</type>
+      <width>50</width>
+      <left>350</left>
+      <top>350</top>
+    </design>
+	  <validation>
+		  <required>No</required>
+		  <email>No</email>
+		  <number>No</number>
+	  </validation>
+  </Field>
+</Fields>

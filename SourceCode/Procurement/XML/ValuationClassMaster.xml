@@ -1,0 +1,97 @@
+
+  <Fields>
+  <Field>
+    <values>
+      <Name>Valuation Type Code</Name>
+      <TableField>ValuationType</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>200</width>
+      <left>350</left>
+      <top>200</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Valuation Type Name</Name>
+      <TableField>ValuationTypeDescription</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>200</width>
+      <left>350</left>
+      <top>230</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+  </Field>
+  
+  <Field>
+    <values>
+      <Name>Material Type Code</Name>
+      <TableField>MaterialType</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>DropDownAuto</type>
+      <width>200</width>
+      <left>350</left>
+      <top>260</top>
+    </design>
+	<options>
+		  <opt1>Proc_MaterialType_Master</opt1>
+		  <opt2>Code</opt2>
+	  </options>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+  </Field>
+  
+  <Field>
+    <values>
+      <Name>PO Category</Name>
+      <TableField>POCatg</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>200</width>
+      <left>350</left>
+      <top>290</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+  </Field>
+  
+  <Field>
+    <values>
+      <Name>Active</Name>
+      <TableField>Status</TableField>
+      <validationflag>No</validationflag>
+    </values>
+    <design>
+      <type>CheckBox</type>
+      <width>150</width>
+      <left>350</left>
+      <top>320</top>
+    </design>
+  </Field>
+
+</Fields>

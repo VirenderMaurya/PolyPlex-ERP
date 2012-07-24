@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Fields>
+  
+  <Field>
+    <values>
+      <Name>Payment Term Code</Name>
+      <TableField>PaymentTermCode</TableField>
+      <validationflag>Yes</validationflag>    
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>200</width>
+      <left>220</left>
+      <top>190</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+  </Field>
+
+  <Field>
+    <values>
+      <Name>Payment Term Description</Name>
+      <TableField>PaymentTermDesc</TableField>
+      <validationflag>Yes</validationflag>   
+    </values>
+    <design>
+      <type>MultiTextField</type>
+      <width>200</width>
+      <left>220</left>
+      <top>240</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>No</number>
+    </validation>
+	 
+  </Field>
+  
+  <Field>
+    <values>
+      <Name>Max Advance Percentage</Name>
+      <TableField>MaxAdvPercentage</TableField>
+      <validationflag>Yes</validationflag>
+    </values>
+    <design>
+      <type>TextBox</type>
+      <width>200</width>
+      <left>220</left>
+      <top>320</top>
+    </design>
+    <validation>
+      <required>Yes</required>
+      <email>No</email>
+      <number>Yes</number>
+    </validation>
+  </Field> 
+</Fields>
